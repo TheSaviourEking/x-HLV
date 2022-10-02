@@ -2,7 +2,7 @@
 
 from sys import argv
 
-if  __name__ != "__main__":
+if __name__ != "__main__":
     exit()
 elif __name__ == "__main__":
     number = 1
@@ -19,4 +19,3 @@ elif __name__ == "__main__":
     for arguments in argv[1:]:
         print("{}: {}".format(number, arguments)),
         number = number + 1
-
